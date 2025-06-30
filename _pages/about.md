@@ -2,12 +2,10 @@
 layout: about
 title: about
 permalink: /
-subtitle:
-  <a href="mailto:apedram@gatech.edu"><i class="fas fa-envelope"></i> Email</a> |
+subtitle: <a href="mailto:apedram@gatech.edu"><i class="fas fa-envelope"></i> Email</a> |
   <a href="https://github.com/AlirezaPedram"><i class="fab fa-github"></i> GitHub</a> |
   <a href="https://www.linkedin.com/in/ali-reza-pedram-b737569a/"><i class="fab fa-linkedin"></i> LinkedIn</a> |
   <a href="https://scholar.google.com/citations?user=OIFfnsEAAAAJ&hl=en"><i class="ai ai-google-scholar"></i> Google Scholar</a>
-
 
 profile:
   align: right
@@ -36,8 +34,6 @@ latest_posts:
 
 I’m a Postdoctoral Fellow at the <a href="https://www.gatech.edu/" target="_blank">Georgia Institute of Technology</a>, affiliated with the Department of Aerospace Engineering. Starting Fall 2025, I will join the <a href="https://www.ou.edu/cs" target="_blank">School of Computer Science</a> at the <a href="https://www.ou.edu/" target="_blank">University of Oklahoma</a> as a tenure-track Assistant Professor. My research lies at the intersection of autonomy, robotics, and machine learning, with a particular focus on developing AI and ML systems for robotic applications. I am especially interested in data-efficient learning, probabilistic generative models for planning and control, and decision-making under uncertainty in both single-agent and multi-agent systems. A central theme of my work is designing algorithms that enable intelligent agents to reason, learn, and act efficiently with minimal processing, sensing, and communication.
 
-
 Prior to joining Georgia Tech, I earned my Ph.D. in Mechanical Engineering from the <a href="https://www.utexas.edu/" target="_blank">University of Texas at Austin</a>, where my research focused on robotics and autonomous systems. Before that, I was a researcher at the <a href="https://www.is.mpg.de/" target="_blank">Max Planck Institute for Intelligent Systems</a> in Germany. I completed my undergraduate studies at <a href="https://www.sharif.edu/" target="_blank">Sharif University of Technology</a>, where I pursued a double major in Mechanical Engineering and Physics. See my <a href="{{ '/assets/pdf/CV_Pedram.pdf' | relative_url }}" target="_blank">CV</a> for more details.
 
 </div>
-
