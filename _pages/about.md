@@ -2,19 +2,24 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle:
+  <a href="mailto:apedram@gatech.edu"><i class="fas fa-envelope"></i> Email</a> |
+  <a href="https://github.com/AlirezaPedram"><i class="fab fa-github"></i> GitHub</a> |
+  <a href="https://www.linkedin.com/in/ali-reza-pedram-b737569a/"><i class="fab fa-linkedin"></i> LinkedIn</a> |
+  <a href="https://scholar.google.com/citations?user=OIFfnsEAAAAJ&hl=en"><i class="ai ai-google-scholar"></i> Google Scholar</a>
+
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: Headshot_Ali_Reza_Pedram.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <div style="text-align: center;">
+      <p>Email: apedram3@gatech.edu</p>
+    </div>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
@@ -22,13 +27,17 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<div style="text-align: justify; margin-bottom: 2rem;">
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I’m a Postdoctoral Fellow at the <a href="https://www.gatech.edu/" target="_blank">Georgia Institute of Technology</a>, affiliated with the Department of Aerospace Engineering. Starting Fall 2025, I will join the <a href="https://www.ou.edu/cs" target="_blank">School of Computer Science</a> at the <a href="https://www.ou.edu/" target="_blank">University of Oklahoma</a> as a tenure-track Assistant Professor. My research lies at the intersection of autonomy, robotics, and machine learning, with a particular focus on developing AI and ML systems for robotic applications. I am especially interested in data-efficient learning, probabilistic generative models for planning and control, and decision-making under uncertainty in both single-agent and multi-agent systems. A central theme of my work is designing algorithms that enable intelligent agents to reason, learn, and act efficiently with minimal processing, sensing, and communication.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+
+Prior to joining Georgia Tech, I earned my Ph.D. in Mechanical Engineering from the <a href="https://www.utexas.edu/" target="_blank">University of Texas at Austin</a>, where my research focused on robotics and autonomous systems. Before that, I was a researcher at the <a href="https://www.is.mpg.de/" target="_blank">Max Planck Institute for Intelligent Systems</a> in Germany. I completed my undergraduate studies at <a href="https://www.sharif.edu/" target="_blank">Sharif University of Technology</a>, where I pursued a double major in Mechanical Engineering and Physics. See my <a href="{{ '/assets/pdf/CV_Pedram.pdf' | relative_url }}" target="_blank">CV</a> for more details.
+
+</div>
+
