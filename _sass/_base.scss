@@ -729,6 +729,10 @@ footer.sticky-bottom {
     li {
       margin-bottom: 1rem;
 
+      .title {
+        font-weight: bolder;
+      }
+
       .preview {
       }
 
@@ -754,10 +758,6 @@ footer.sticky-bottom {
           color: var(--global-theme-color) !important;
           border: 1px solid var(--global-theme-color);
         }
-      }
-
-      .title {
-        font-weight: bolder;
       }
 
       .author {

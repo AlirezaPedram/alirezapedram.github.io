@@ -1,6 +1,8 @@
 // Has to be in the head tag, otherwise a flicker effect will occur.
 
 // Toggle through light, dark, and system theme settings.
+
+/*
 let toggleThemeSetting = () => {
   let themeSetting = determineThemeSetting();
   if (themeSetting == "system") {
@@ -9,6 +11,17 @@ let toggleThemeSetting = () => {
     setThemeSetting("dark");
   } else {
     setThemeSetting("system");
+  }
+};
+*/
+
+// SIMPLIFIED 2-STATE TOGGLE
+let toggleThemeSetting = () => {
+  let themeSetting = determineThemeSetting();
+  if (themeSetting === "dark") {
+    setThemeSetting("light");
+  } else {
+    setThemeSetting("dark");
   }
 };
 
