@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
         },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
@@ -402,6 +395,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-submitted-a-new-paper-communication-aware-map-compression-for-online-path-planning-a-rate-distortion-approach",
           title: 'Submitted a new paper: Communication-Aware Map Compression for Online Path-Planning: A Rate-Distortion Approach....',
+          description: "",
+          section: "News",},{id: "news-i-ve-officially-started-my-new-role-as-an-assistant-professor-in-the-school-of-computer-science-at-the-university-of-oklahoma",
+          title: 'I’ve officially started my new role as an Assistant Professor in the School...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
