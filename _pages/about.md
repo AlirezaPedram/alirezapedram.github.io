@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href="mailto:apedram@gatech.edu"><i class="fas fa-envelope"></i> Email</a> |
+subtitle: <a href="mailto:apedram@ou.edu"><i class="fas fa-envelope"></i> Email</a> |
   <a href="https://github.com/AlirezaPedram"><i class="fab fa-github"></i> GitHub</a> |
   <a href="https://www.linkedin.com/in/ali-reza-pedram-b737569a/"><i class="fab fa-linkedin"></i> LinkedIn</a> |
   <a href="https://scholar.google.com/citations?user=OIFfnsEAAAAJ&hl=en"><i class="ai ai-google-scholar"></i> Google Scholar</a>
@@ -22,7 +22,7 @@ social: false # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: 6 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: false
